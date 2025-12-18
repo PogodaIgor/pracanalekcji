@@ -1,32 +1,62 @@
 body{
     display: flex;
-    margin: 0;
+    margin: 0px;
 }
 .div1{
-    display: flex;
-    width: 25%;
     height: 100vh;
+    width: 20%;
     border: 1px solid black;
 }
-
 .div2{
-    width: 50%;
-     height: 100vh;
-     border: 1px solid black;
-}
-.gora{
-     width: 100%;
-     height: 50vh;
-     border: 1px solid black;
-}
-.dol{
+    flex-direction: column;
+    height: 90vh;
     width: 100%;
-    height: 50vh;
     border: 1px solid black;
 }
-.div3{
-    display: flex;
-    width: 25%;
-    height: 100vh;
+.divs2{
+    height: 10vh;
+    width: 100%;
+    border: 1px solid black;
+}
+#kol1{
+    width: 60%;
+    height: 5vh;
+    margin-top: 250px;
+    margin-left: 45px;
+}
+#kol2{
+    width: 60%;
+    height: 5vh;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+#kol3{
+    width: 60%;
+    height: 5vh;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+#color1{
+    /* margin-top: 15px; */
+    margin-left: 100px;
+    width: 20%;
+    height: 5vh;
+}
+#color2{
+    width: 20%;
+    height: 5vh;
+}
+#color3{
+    width: 20%;
+    height: 5vh;
+}
+.lewo{
+    height: 10vh;
+    width: 50%;
+    border: 1px solid black;
+}
+.prawo{
+    height: 10vh;
+    width: 100%;
     border: 1px solid black;
 }
